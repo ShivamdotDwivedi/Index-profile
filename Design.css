@@ -1,0 +1,121 @@
+/*Colors and Fonts */
+
+body{ 
+	background: #000000;
+	color:white;
+font-family: sans-serif;
+ font-size: 17px; /* Good value for default to keep it readible */
+ font-weight: lighter; /* to make the font bolder or less thicker. */
+ }
+
+
+/*This is called the group selector, where we choose all the three together in case for defining a common element.*/
+h1,h2,h3 { 
+font-family: '', ;
+ }
+
+h1{
+    font-family: span;
+	color: #White;
+	font-size: 32px;
+font-weight: 900;
+}
+
+h2{
+    font-family: D9D9D9;
+	color: White;
+font-weight: lighter;
+font-weight: 700;
+}
+
+a {
+ font-family: 'Roboto';
+ font-weight: 400;
+ text-decoration: none;
+ color: black;
+ font-size: 30px;
+ }
+/*This is for when the links are hovered by and then the color is supposed to change*/
+a:hover  {
+	color: black;
+}
+
+ul{
+font-size: 29px;
+   
+}
+
+
+div{
+    background: #212529;
+    padding: 60px;
+    margin: 70px;
+    box-shadow: 1px 10px 20px rgb(0 0 0 / 10%);
+    border: 2px solid black;
+    border-radius: 4px;
+}  
+
+/*Custom Design with class*/
+
+.container {
+width: 700px;
+margin: 40px auto;
+
+}
+
+.card-white{
+background-color: dark grey;
+padding:  40px;
+Box-shadow: 0px 10px 30 px rgba(0,0,0,0.1);
+border-radius: 4px;
+margin: 20px 0px;
+text-align: Center;
+
+}
+
+.img-circle {
+border-radius: 50%;
+
+}
+
+.btn-blue {
+background-color: black;
+color: white;
+padding:  15px 20 px;
+border-radius: 4px;
+}
+
+.btn-blue:hover {
+background-color: black;
+color: white;
+
+}
+/* TO get rid of the bullet points*/
+
+.list-inline{
+list-style: none ;
+padding-left: 0px;
+
+}
+/* Here we are selecting an element inside another element, */
+.list-inline li {
+ display:inline;
+ padding: 5px;
+
+}
+
+/* Here this is used to specify the i in the inline class and to define the last buttons and their properties and the one below it is the one that is being used to show the hover state. */
+.list-inline i {
+font-size: 50px;
+color: rgb(230, 230, 230);
+
+}
+.list-inline i:hover{
+font-size: 50px;
+color: Red;
+}
+
+
+#introduction p {
+	margin-bottom: 40px;
+}
